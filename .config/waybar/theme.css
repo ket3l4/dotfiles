@@ -1,0 +1,8 @@
+@define-color bar-bg rgba(0, 0, 0, 0); /* Transparent background */
+
+/* Main colors */
+@define-color main-bg #eff1f5; /* Latte base */
+@define-color main-fg #4c4f69; /* Latte text color */
+
+/* Hover colors with Flamingo/Rosewater accents */
+@define-color wb-hvr-fg #d5904d; /* orange text color on hover */

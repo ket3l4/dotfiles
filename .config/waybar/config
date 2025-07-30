@@ -1,0 +1,20 @@
+{
+
+  "include": "~/.config/waybar/modules",
+  "layer": "bottom",
+  "position": "bottom",
+  "spacing": 10,
+  "padding": 3,
+
+  "modules-left": [
+    "custom/power", 
+    "clock",
+    "cpu", 
+    "custom/todo",
+    "hyprland/window" 
+  ],
+
+  "modules-center": [  "hyprland/workspaces"],
+  "modules-right": ["backlight", "bluetooth","power-profiles-daemon", "pulseaudio", "network",  "battery" ],
+  "reload_style_on_change":true
+}
