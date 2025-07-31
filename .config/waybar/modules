@@ -3,7 +3,7 @@
         "format" : "",
                 "tooltip": false,
                 "menu": "on-click",
-                "on-click":"$HOME/.config/waybar/powermenu.sh"
+                "on-click":"$HOME/.config/waybar/scripts/powermenu.sh"
     },
   "hyprland/workspaces": {
 	"format": "{icon}",
@@ -97,14 +97,13 @@
     "path": "/"
   },
 
-  "custom/colorpicker": {
-    "format": "{}",
-    "return-type": "json",
-    "interval": "once",
-    "exec": "~/.config/waybar/scripts/colorpicker.sh -j",
-    "on-click": "sleep 1 && ~/.config/waybar/scripts/colorpicker.sh",
-    "signal": 1
-  },
+  "custom/todo": {
+        "exec": "~/.config/waybar/scripts/todo.sh",
+        "return-type": "json",
+        "format": "{}?",
+        "on-click": "code ~/notes/todo.md",
+        "interval": 5
+    },
 
   "cpu": {
       "interval": 1,

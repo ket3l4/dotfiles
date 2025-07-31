@@ -11,10 +11,11 @@
     "clock",
     "cpu", 
     "custom/todo",
+    "custom/clipboard",
     "hyprland/window" 
   ],
 
   "modules-center": [  "hyprland/workspaces"],
-  "modules-right": ["backlight", "bluetooth","power-profiles-daemon", "pulseaudio", "network",  "battery" ],
+  "modules-right": ["backlight", "bluetooth", "pulseaudio", "network",  "battery" ],
   "reload_style_on_change":true
 }
