@@ -9,13 +9,12 @@
   "modules-left": [
     "custom/power", 
     "clock",
-    "cpu", 
-    "custom/todo",
+    "cpu",
     "custom/clipboard",
     "hyprland/window" 
   ],
 
   "modules-center": [  "hyprland/workspaces"],
-  "modules-right": ["backlight", "bluetooth", "pulseaudio", "network",  "battery" ],
+  "modules-right": ["custom/todo", "bluetooth",  "pulseaudio", "network",  "battery" ],
   "reload_style_on_change":true
 }

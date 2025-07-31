@@ -1,3 +1,4 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
 # vim:ft=kitty
 
@@ -10,7 +11,7 @@
 
 
 # The basic colors
-foreground              #3a370f
+foreground              #3b3e55
 background              #eff1f5
 selection_foreground    #eff1f5
 selection_background    #dc8a78
@@ -29,8 +30,8 @@ macos_titlebar_color system
 
 active_tab_foreground   #eff1f5
 active_tab_background   #8839ef
-inactive_tab_foreground #3a370f
-inactive_tab_background #3a370f
+inactive_tab_foreground #3b3e55
+inactive_tab_background #9ca0b0
 tab_bar_background      #bcc0cc
 
 mark1_foreground #eff1f5

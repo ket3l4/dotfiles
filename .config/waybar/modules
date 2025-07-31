@@ -3,7 +3,14 @@
         "format" : "",
                 "tooltip": false,
                 "menu": "on-click",
-                "on-click":"$HOME/.config/waybar/scripts/powermenu.sh"
+                "menu-file":"~/dotfiles/.config/waybar/power_menu.xml",
+                "menu-actions": {
+                    "shutdown": "systemctl poweroff",
+                    "reboot": "systemctl reboot",
+                    "suspend": "systemctl suspend",
+                    "logout": "hyprctl dispatch exit",
+                    "lock": "hyprlock"
+                  }
     },
   "hyprland/workspaces": {
 	"format": "{icon}",
