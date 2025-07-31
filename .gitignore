@@ -1,1 +1,2 @@
-/.config/zsh/.zsh_history
+# ignore these files
+.config/zsh/.zsh_history
